@@ -3,6 +3,10 @@
 STM32F411RE(NUCLEO-F411RE) 기반 멀티 기능 스마트 워치 펌웨어입니다.
 버튼 하나로 **시계 → 온습도 → 초음파 거리 → 스톱워치** 4가지 모드를 순환하며, 결과는 I2C 16x2 LCD에 표시하고 버튼 입력과 초 단위 동작은 부저 소리로 알려 줍니다.
 
+## System Overview
+
+![System Overview](docs/system_overview.png)
+
 ## 주요 기능
 
 | 모드 | 동작 | 버튼 |
